@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>GameStoreSystem</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    
+    <!--ADDING REQUIRED DEPENDENCIES-->
+    <dependencies>
+    <!-- JSON Parsing Library -->
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20231013</version>
+    </dependency>
+        <dependency>
+            <groupId>org.eclipse.scout.rt</groupId>
+            <artifactId>org.eclipse.scout.json</artifactId>
+            <version>24.2.17</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.external</groupId>
+            <artifactId>AbsoluteLayout</artifactId>
+            <version>RELEASE210</version>
+        </dependency>
+         <!-- HTTP Client Library -->
+    <dependency>
+        <groupId>org.apache.httpcomponents.client5</groupId>
+        <artifactId>httpclient5</artifactId>
+        <version>5.2.1</version>
+    </dependency>
+    </dependencies>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <exec.mainClass>com.example.gamestoresystem.GameStoreSystem</exec.mainClass>
+    </properties>
+</project>
